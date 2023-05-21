@@ -204,4 +204,3 @@ output "ephemeral_block_device" {
   description = "Ephemeral block device information"
   value       = try(aws_instance.this[0].ephemeral_block_device, null)
 }
-#dummy
