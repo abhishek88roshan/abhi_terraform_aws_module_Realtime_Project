@@ -297,5 +297,3 @@ No modules.
 
 Apache 2 Licensed. See [LICENSE](https://github.com/terraform-aws-modules/terraform-aws-ec2-instance/tree/master/LICENSE) for full details.
 
-#this is a new line of code
-#this is new line of code
