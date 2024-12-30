@@ -1,6 +1,6 @@
 @Library('shared_pipeline@main') _
 pipeline {
-    agent any
+    agent agent1
 
     stages {
         stage('Use Shared Pipeline') {
