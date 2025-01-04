@@ -8,7 +8,7 @@ pipeline {
             steps {
                 script {
                     // Call the shared library pipeline
-                    pipeline()
+                    prakhar()
                 }
             }
         }
