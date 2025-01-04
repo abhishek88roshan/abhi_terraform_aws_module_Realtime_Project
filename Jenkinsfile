@@ -1,16 +1,14 @@
-@Library('shared_pipeline@main') _
+@Library('shared-library') _
+
 pipeline {
     agent any
 
     stages {
-        stage('Use Shared Pipeline') {
+        stage('Call Shared Library Pipeline') {
             steps {
-                catchError(buildResult: 'FAILURE', stageResult: 'FAILURE') {
-                    script {
-                        echo "Debug: Attempting to call the shared pipeline"
-                        pipeline.func_from_module_1()
-                        echo "Debug: Shared pipeline executed"
-                    }
+                script {
+                    // Call the shared library pipeline
+                    pipeline()
                 }
             }
         }
