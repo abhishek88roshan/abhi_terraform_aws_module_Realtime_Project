@@ -7,11 +7,11 @@ locals {
 }
 
 data "aws_ssm_parameter" "this" {
-  count = local.create ? 1 : 0
+  cou
 
   name = var.ami_ssm_parameter
 }
-
+soidhidsfighds
 ################################################################################
 # Instance
 ################################################################################
