@@ -14,7 +14,9 @@ output "arn" {
     aws_instance.this[0].arn,
     aws_instance.ignore_ami[0].arn,
     aws_spot_instance_request.this[0].arn,
-    
+    null,
+  )
+}
 
 output "capacity_reservation_specification" {
   description = "Capacity reservation specification of the instance"
