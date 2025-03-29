@@ -11,7 +11,7 @@ If you find a bug, please open an issue with supporting configuration to reprodu
 
 - Terraform v0.13.1 is now minimum supported version to take advantage of `count` and `for_each` arguments at module level
 
-### Variable and output changes
+### Variable and 
 
 1. Removed variables:
 
