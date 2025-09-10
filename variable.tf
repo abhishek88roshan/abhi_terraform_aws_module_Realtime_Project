@@ -9,5 +9,3 @@ terraform {
   }
 }
 
-This is new line of code
-let's raise PR to merger hotfix to master
