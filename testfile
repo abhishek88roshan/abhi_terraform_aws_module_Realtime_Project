@@ -1,2 +1,7 @@
 #this is batch 3
+<<<<<<< HEAD
 
+=======
+#this line is updating for new feature branch
+#Raising pull requet for feature branch
+>>>>>>> feature
